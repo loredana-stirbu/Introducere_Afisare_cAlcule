@@ -1,0 +1,10 @@
+print("Se  introduc  de  la  tastatură  trei  cifre.  Afişaţi  pe  aceeaşi  linie  5  numere  formate  cu aceste cifre luate o singură dată. Exemplu: date de intrare: 3 4 2  Date de ieşire: 324  342   243  234  432.")
+a = int(input("Dati un numar:"))
+b = int(input("Dati un numar:"))
+c = int(input("Dati un numar:"))
+print(a,b,c,sep="")
+print(a,c,b,sep="") 
+print(b,a,c,sep="") 
+print(c,a,b,sep="")
+print(c,b,a,sep="")
+
